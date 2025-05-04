@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "7bbff34bb0533f24",
+    "type": "split",
+    "children": [
+      {
+        "id": "2566e214125b5fec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3461626739afc831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/Commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Commands"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bb61bd438af99114",
+    "type": "split",
+    "children": [
+      {
+        "id": "60d9168d287e034e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e82ba6254f0c2b4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c2d35e4ad469ffb5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "39a79074a99bad8c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.50550842285156
+  },
+  "right": {
+    "id": "96a444775a89a0c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3829c84ae75cba88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f856161313deb5f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "b7edaa4f64cb6f08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cb5b1e9384e733d8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          },
+          {
+            "id": "d40b027a888ca044",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JAVA OCA/Chapter 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Chapter 3"
+            }
+          },
+          {
+            "id": "decb553ff2f5cb8e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "3461626739afc831",
+  "lastOpenFiles": [
+    "JAVA OCA/Chapter 3.md",
+    "Images/Pasted image 20250430121513.png",
+    "Images/Pasted image 20250430121441.png",
+    "Images/Pasted image 20250430121432.png",
+    "Images/Pasted image 20250430121332.png",
+    "Images/Pasted image 20250430120042.png",
+    "Images/Pasted image 20250429180334.png",
+    "Images/Pasted image 20250417114447.png",
+    "Images/Pasted image 20250417114254.png",
+    "Images/Pasted image 20250417113230.png",
+    "Images/Pasted image 20250417112429.png",
+    "Images",
+    "JAVA OCA/Chapter 2.md",
+    "JAVA OCA/Chapter 1.md",
+    "Spring/java Beans.md",
+    "Spring/Hibernate/Read From DB.md",
+    "Spring/Hibernate/insert into DB.md",
+    "Spring/Hibernate/Hibernate Configuration.md",
+    "Spring/Hibernate/@Entity.md",
+    "Sql/inner join.md",
+    "Sql/Magic quires.md",
+    "Sql/Relationship.md",
+    "Sql/SQL QUIRES.md",
+    "Spring/Spring core.md",
+    "Untitled.md",
+    "Structure/Project-Structrue/Structure.md",
+    "Structure/Project-Structrue",
+    "Structure",
+    "Sql/SQL Road Map/SQL Road Map.md",
+    "Sql/SQL Road Map/Basic Concepts.md",
+    "Sql/SQL Road Map",
+    "Sql/JOIN",
+    "Sql/Untitled.md",
+    "Sql/Constraints.md",
+    "Sql/1- Data And Tables.md",
+    "Sql",
+    "Spring/Hibernate",
+    "Spring",
+    "NamaTickts/SRDRQ05725.md",
+    "NamaTickts",
+    "JAVA OCA",
+    "Git/Commands.md",
+    "Collection.md",
+    "README.md",
+    "Snippets/Banner.md"
+  ]
+}

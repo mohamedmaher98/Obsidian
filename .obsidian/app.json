@@ -1,0 +1,11 @@
+{
+  "propertiesInDocument": "visible",
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "defaultViewMode": "source",
+  "strictLineBreaks": false,
+  "foldHeading": true,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "livePreview": true
+}

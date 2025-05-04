@@ -1,0 +1,9 @@
+{
+  "minimal-style@@ribbon-style": "ribbon-hidden",
+  "minimal-style@@window-title-off": false,
+  "minimal-style@@file-header-visibility": "minimal-tab-title-visible",
+  "minimal-style@@frame-background@@light": "#F52727",
+  "minimal-advanced@@styled-scrollbars": true,
+  "minimal-advanced@@cursor": "default",
+  "chime-theme@@theme-settings": "theme-crystal"
+}

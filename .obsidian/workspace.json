@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Commands.md",
+                "file": "JAVA OCA/Methods and Encapsulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Commands"
+              "title": "Methods and Encapsulation"
             }
           }
         ]
@@ -187,9 +187,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3461626739afc831",
+  "active": "2e82ba6254f0c2b4",
   "lastOpenFiles": [
-    "JAVA OCA/Chapter 3.md",
+    "Images/Pasted image 20250504143452.png",
+    "JAVA OCA/Chapter 3 (2).md",
+    "JAVA OCA/Methods and Encapsulation.md",
+    "JAVA OCA/Chapter 3 (1).md",
+    "Pasted image 20250504143452.png",
+    "Images/Pasted image 20250504142158.png",
+    "Git/Commands.md",
     "Images/Pasted image 20250430121513.png",
     "Images/Pasted image 20250430121441.png",
     "Images/Pasted image 20250430121432.png",
@@ -198,8 +204,6 @@
     "Images/Pasted image 20250429180334.png",
     "Images/Pasted image 20250417114447.png",
     "Images/Pasted image 20250417114254.png",
-    "Images/Pasted image 20250417113230.png",
-    "Images/Pasted image 20250417112429.png",
     "Images",
     "JAVA OCA/Chapter 2.md",
     "JAVA OCA/Chapter 1.md",
@@ -230,9 +234,6 @@
     "NamaTickts/SRDRQ05725.md",
     "NamaTickts",
     "JAVA OCA",
-    "Git/Commands.md",
-    "Collection.md",
-    "README.md",
-    "Snippets/Banner.md"
+    "Collection.md"
   ]
 }

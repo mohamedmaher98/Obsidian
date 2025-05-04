@@ -25,4 +25,6 @@ git pull origin main
 ---
 عشان ارفع اي فولدر علي جيت
 
-1- 
+1- git init 
+2- git add .
+3-

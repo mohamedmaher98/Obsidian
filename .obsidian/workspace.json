@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA OCA/Methods and Encapsulation.md",
+                "file": "Spring/Request and Response.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Methods and Encapsulation"
+              "title": "Request and Response"
             }
           }
         ]
@@ -187,11 +187,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2e82ba6254f0c2b4",
+  "active": "3461626739afc831",
   "lastOpenFiles": [
+    "JAVA OCA/Methods and Encapsulation.md",
+    "Spring/Request and Response.md",
     "Images/Pasted image 20250504143452.png",
     "JAVA OCA/Chapter 3 (2).md",
-    "JAVA OCA/Methods and Encapsulation.md",
     "JAVA OCA/Chapter 3 (1).md",
     "Pasted image 20250504143452.png",
     "Images/Pasted image 20250504142158.png",
@@ -203,7 +204,6 @@
     "Images/Pasted image 20250430120042.png",
     "Images/Pasted image 20250429180334.png",
     "Images/Pasted image 20250417114447.png",
-    "Images/Pasted image 20250417114254.png",
     "Images",
     "JAVA OCA/Chapter 2.md",
     "JAVA OCA/Chapter 1.md",

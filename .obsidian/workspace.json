@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Request and Response.md",
+                "file": "JAVA OCA/Chapter 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Request and Response"
+              "title": "Chapter 5"
             }
           }
         ]
@@ -189,24 +189,27 @@
   },
   "active": "3461626739afc831",
   "lastOpenFiles": [
-    "JAVA OCA/Methods and Encapsulation.md",
+    "JAVA OCA/Chapter 4.md",
+    "JAVA OCA/Chapter 5.md",
+    "NamaTickts/Tickets.md",
+    "JAVA OCA/Chapter 3 (1).md",
+    "JAVA OCA/Chapter 2.md",
+    "JAVA OCA/Chapter 1.md",
+    "JAVA OCA/Chapter 3 (2).md",
+    "Images/Pasted image 20250505125134.png",
+    "NamaTickts/SRDRQ05725.md",
+    "Git/Commands.md",
     "Spring/Request and Response.md",
     "Images/Pasted image 20250504143452.png",
-    "JAVA OCA/Chapter 3 (2).md",
-    "JAVA OCA/Chapter 3 (1).md",
     "Pasted image 20250504143452.png",
     "Images/Pasted image 20250504142158.png",
-    "Git/Commands.md",
     "Images/Pasted image 20250430121513.png",
     "Images/Pasted image 20250430121441.png",
     "Images/Pasted image 20250430121432.png",
     "Images/Pasted image 20250430121332.png",
     "Images/Pasted image 20250430120042.png",
     "Images/Pasted image 20250429180334.png",
-    "Images/Pasted image 20250417114447.png",
     "Images",
-    "JAVA OCA/Chapter 2.md",
-    "JAVA OCA/Chapter 1.md",
     "Spring/java Beans.md",
     "Spring/Hibernate/Read From DB.md",
     "Spring/Hibernate/insert into DB.md",
@@ -227,13 +230,10 @@
     "Sql/JOIN",
     "Sql/Untitled.md",
     "Sql/Constraints.md",
-    "Sql/1- Data And Tables.md",
     "Sql",
     "Spring/Hibernate",
     "Spring",
-    "NamaTickts/SRDRQ05725.md",
     "NamaTickts",
-    "JAVA OCA",
-    "Collection.md"
+    "JAVA OCA"
   ]
 }

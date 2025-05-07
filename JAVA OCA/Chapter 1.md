@@ -70,6 +70,7 @@ contains the JRE for specified OS
 
 # ==Constructor==
 
+
 Constructor : Special type of method that creates a new object
 
 - the name of the constructor should match the name of the class
@@ -119,19 +120,19 @@ int m= 1_000_000;
 ---
 the default for the variables is
 
-|boolean|false|
-|---|---|
-|byte -short- int - long|0|
-|float - double|0.0|
-|char|/uooo|
-|all object reference|null|
+| boolean                 | false |
+| ----------------------- | ----- |
+| byte -short- int - long | 0     |
+| float - double          | 0.0   |
+| char                    | /uooo |
+| all object reference    | null  |
 
 ---
 # ==Declaring multiple variables==
 
 string s1 , s2 ;
 
-string s1=”yes” string s2=”no”;
+string s1=”yes”  string s2=”no”; //not compile
 
 The name must begin with a letter or the symbol $ or _.
 

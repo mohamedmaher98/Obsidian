@@ -1,11 +1,20 @@
 {
   "propertiesInDocument": "visible",
   "showInlineTitle": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "defaultViewMode": "source",
   "strictLineBreaks": false,
   "foldHeading": true,
   "showLineNumber": false,
   "rightToLeft": false,
-  "livePreview": true
+  "livePreview": true,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": true,
+  "smartIndentList": true,
+  "useTab": true,
+  "autoConvertHtml": true,
+  "vimMode": false,
+  "focusNewTab": true
 }

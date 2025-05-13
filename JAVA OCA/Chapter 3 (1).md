@@ -16,7 +16,7 @@ System.out.println(1 + 2 + "c"); // 3c
 ---
 ### ==Immutability==
 - [ ] -Once a String object is created, it is not allowed to change. It cannot be made larger or
-smaller, and you cannot change one of the characters inside it.
+	smaller, and you cannot change one of the characters inside it.
 - [ ] -Mutable is another word for changeable
 - [ ] can’t be changed once it’s created.
 - [ ] Immutable only has a getter. There's no way to change the value of s once it's set.

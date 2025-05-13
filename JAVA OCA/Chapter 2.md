@@ -3,7 +3,8 @@
 
 1- Post-unary operators   expression ++  , expression- -
 
-2- pre unary operators    ++expression ,   - - expression
+2- pre-unary operators    ++expression ,   - - expression
+
 
 # ==Numeric promotion Rules==
 
@@ -15,7 +16,7 @@ smaller data types like byte ,short and char promoted to int
 
 short x =10 ;
 
-short y = 10 ;
+int y = 10 ;
 
 promoted to int
 
@@ -47,6 +48,11 @@ Here are some tips to help remember this table:
 ■ Inclusive OR is only false if both operands are false. x || y
 ■ Exclusive OR is only true if the operands are different. x^y
 
+```java
+
+if (x&y++)
+if (x||y)
+```
 ---
 Single Ampersand (`&`)
 

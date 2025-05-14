@@ -33,7 +33,7 @@
 - **الـ Body (الجسم)**:
 
 - يحتوي على البيانات المرسلة في بعض الـ Requests (مثل `POST` أو `PUT`). يختلف التنسيق حسب الـ API (غالبًا يكون `JSON` أو `XML`).
-  wx : 
+ex : 
 - {
     "name": "John Doe",
     "email": "john@example.com"

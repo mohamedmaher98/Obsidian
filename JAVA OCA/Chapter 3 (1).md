@@ -83,6 +83,11 @@ String s2 = s1.concat("2");
 - **Size** ➔ هو **اللي فعليًا متخزن** أو متسجل جوا الكائن.
     
 - **Capacity** ➔ هو **المساحة الفاضية كمان** اللي الكائن محجزها عشان لما تضيف بيانات تانية، ميضطرش يكبر المساحة كل شوية.
+
+```java
+int[] arr = new arr[10];
+arr ={1,2,3,4,5,}
+```
 ---
 StringBuilder one = new StringBuilder();
 StringBuilder two = new StringBuilder();
@@ -150,7 +155,7 @@ Arrays.sort(numbers);
 1  6  9
 
 ---
-### <mark style="background: #BBFABBA6;">Vargas </mark>
+### <mark style="background: #BBFABBA6;">Varargas </mark>
 
 كلمة **Varargs** هي اختصار لـ "**Variable Arguments**"، يعني إنك تقدر تمرر **عدد غير محدد من القيم** كـ **arguments** لدالة في Java.
 بدل ما تعمل overload أو تبعت مصفوفة، تقدر تستخدم Varargs.
@@ -210,7 +215,7 @@ except primitives.
 8: birds.add(1, "cardinal"); // [blue jay, cardinal, hawk, robin]
 9: System.out.println(birds); // [blue jay, cardinal, hawk, robin]
 
---move()
+--remove()
 The remove() methods remove the fi rst matching value in the ArrayList or remove the
 element at a specifi ed index.
 

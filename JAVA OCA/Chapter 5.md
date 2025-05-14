@@ -137,9 +137,11 @@ public class Elephant extends Mammal {
 | هل يحتاج أقواس () | نعم، لأنها عملية استدعاء constructor              | لا، لأنه يشير إلى أعضاء الأب                   |
 | مثال صالح         | `super();`                                        | `super.getAge();`                              |
 | مثال غير صالح     | `super;` ❌ أو `super().getAge();` ❌               | -                                              |
+**==
+=======
+## ==**Overriding Methods in Java**==
 
----
-### ==**Overriding Methods in Java**==
+
 
 **1. What is Method Overriding?**
 
@@ -220,7 +222,11 @@ What is the output of the following code? (Choose all that apply)
 12: }
 ```
 ---
-### 🧠 Redeclaring Private Methods in Java
+
+
+##  ==**Redeclaring Private Methods in Java**==
+
+
 
 ### ✅ المفهوم الأساسي:
 
@@ -262,7 +268,10 @@ public class BactrianCamel extends Camel {
     
 	- لأن `getNumberOfHumps()` في `Camel` خاصة (private)، مش ممكن تشوفها أو تورثها.
 ---
-### 🛡️ Hiding Static Methods in Java
+
+##  ==**Hiding Static Methods in Java**==
+
+
 
 ### ✅ المفهوم الأساسي
 - **إخفاء (hiding)** يحدث عندما يعرّف الكلاس الابن **static method** بنفس الاسم والتوقيع (signature) الموجودين في الكلاس الأب.

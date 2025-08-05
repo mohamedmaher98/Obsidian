@@ -31,12 +31,12 @@
 
 ### 🏗️ **Basic Syntax & Structure**
 
-- [ ] Java History and Features
-- [ ] JVM, JRE, JDK Concepts
+- [x] Java History and Features
+- [x] JVM, JRE, JDK Concepts
 - [ ] Setting up Development Environment (IDE: IntelliJ/Eclipse)
 - [ ] Writing First Java Program
 - [ ] Java Program Structure (class, main method)
-- [ ] Compilation Process (javac, java commands)
+- [x] Compilation Process (javac, java commands)
 
 ### 🔤 **Variables & Data Types**
 

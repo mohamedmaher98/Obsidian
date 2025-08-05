@@ -7,7 +7,7 @@
 
 ### 🏗️ **Introduction & Setup**
 
-- [ ] What is SQL Server and RDBMS Concepts
+- [x] What is SQL Server and RDBMS Concepts
 - [ ] SQL Server Editions (Express, Standard, Enterprise)
 - [ ] SQL Server Architecture Overview
 - [ ] Installing SQL Server Developer Edition

@@ -21,7 +21,6 @@ fetch next from db_cursor into @db_name;
 
 while @@fetch_status = 0 begin set @sql = 'if exists (select 1 from ' + quotename(@db_name) + '.information_schema.tables where table_name = ''' + @t_name + ''') begin if exists (select 1 from ' + quotename(@db_name) + '.dbo.' + @t_name + ') begin select @record_count = count(*) from ' + quotename(@db_name) + '.dbo.' + @t_name + '; insert into #db_record_counts (databasename, recordcount) values (''' + @db_name + ''', @record_count); end end';
 
-```
 begin try
     exec sp_executesql @sql, N'@record_count int output', @record_count output;
 end try
@@ -31,7 +30,6 @@ end catch;
 
 fetch next from db_cursor into @db_name;
 
-```
 
 end;
 
@@ -42,3 +40,9 @@ declare @final_sql nvarchar(max) = 'select databasename, recordcount from #db_re
 exec sp_executesql @final_sql;
 
 drop table #db_record_counts;
+
+
+
+
+
+

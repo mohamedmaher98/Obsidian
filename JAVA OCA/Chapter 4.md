@@ -54,28 +54,28 @@ the access modifier.
 - **مش مسموح** للكلاسات اللي في باكدجات تانية توصل له، حتى لو ورثت منه.
 
 | Access Modifier | داخل نفس الكلاس | داخل نفس الـ package | في الـ subclass (وراثة) | في أي مكان (عام) |
-|-----------------|------------------|------------------------|--------------------------|------------------|
-| `private`       | ✅                | ❌                      | ❌                        | ❌                |
-| *default*        | ✅                | ✅                      | ❌                        | ❌                |
-| `protected`     | ✅                | ✅                      | ✅                        | ❌                |
-| `public`        | ✅                | ✅                      | ✅                        | ✅                |
+| --------------- | --------------- | -------------------- | ----------------------- | ---------------- |
+| *default*       | ✅               | ✅                    | ❌                       | ❌                |
+| `protected`     | ✅               | ✅                    | ✅                       | ❌                |
+| `public`        | ✅               | ✅                    | ✅                       | ✅                |
+| `private`       | ✅               | ❌                    | ❌                       | ❌                |
 
 ---
 ### ==Optional Specifiers==
 
 هي كلمات مفتاحية (keywords) **اختيارية** ممكن تضيفها لتعطي خصائص معينة للمتغير أو الميثود أو الكلاس، لكنها **ليست مطلوبة** لبناء الكود.
 
-|Specifier|المعنى / الاستخدام|مثال|
-|---|---|---|
-|`final`|يمنع التغيير (على المتغير، الميثود، أو الكلاس)|`final int x = 5;`|
-|`static`|يربط العنصر بالكلاس بدلاً من الكائن|`static int counter = 0;`|
-|`abstract`|يعلن أن الكلاس أو الميثود غير مكتمل|`abstract void draw();`|
-|`synchronized`|يمنع التزامن المتعدد (multi-thread access)|`synchronized void update() {}`|
-|`native`|يشير إلى أن الميثود مكتوب بلغة غير Java|`native void read();`|
-|`strictfp`|يفرض دقة ثابتة للعمليات الحسابية العائمة|`strictfp class Calculator {}`|
-|`transient`|يستثني المتغير من serialization|`transient int tempData;`|
-|`volatile`|يضمن أن القراءة والكتابة على المتغير تحدث من الذاكرة الرئيسية مباشرةً|`volatile boolean flag;`|
-|`default` (interface)|لتعريف ميثود افتراضي داخل interface|`default void log() {}`|
+| Specifier             | المعنى / الاستخدام                                                    | مثال                            |
+| --------------------- | --------------------------------------------------------------------- | ------------------------------- |
+| `final`               | يمنع التغيير (على المتغير، الميثود، أو الكلاس)                        | `final int x = 5;`              |
+| `static`              | يربط العنصر بالكلاس بدلاً من الكائن                                   | `static int counter = 0;`       |
+| `abstract`            | يعلن أن الكلاس أو الميثود غير مكتمل                                   | `abstract void draw();`         |
+| `synchronized`        | يمنع التزامن المتعدد (multi-thread access)                            | `synchronized void update() {}` |
+| `native`              | يشير إلى أن الميثود مكتوب بلغة غير Java                               | `native void read();`           |
+| `strictfp`            | يفرض دقة ثابتة للعمليات الحسابية العائمة                              | `strictfp class Calculator {}`  |
+| `transient`           | يستثني المتغير من serialization                                       | `transient int tempData;`       |
+| `volatile`            | يضمن أن القراءة والكتابة على المتغير تحدث من الذاكرة الرئيسية مباشرةً | `volatile boolean flag;`        |
+| `default` (interface) | لتعريف ميثود افتراضي داخل interface                                   | `default void log() {}`         |
 
 ==final== 
 متغير	    لا يمكن تغيير قيمته بعد التهيئة	
@@ -613,6 +613,7 @@ public class InitializationOrder {
         new InitializationOrder();
     }
 }
+
 ```
 1. الستاتيك دائماً أولاً وبالترتيب من الأعلى للأسفل
     
@@ -659,7 +660,7 @@ public final class ImmutableSwan {  // 1. الكلاس لازم يكون final
     
     // 3. الكونستركتور لتعيين القيم الأولية
     public ImmutableSwan(int numberEggs) {
-        this.numberEggs = numberEggs;
+        this.numberEggs = 50 + numberEggs;
     }
     
     // 4. فقط getters بدون setters
@@ -710,7 +711,7 @@ public final class ImmutableStudent {
 2. **الـ Records في الجافا 16+**:
     - بتساعد في إنشاء immutable classes بسهولة
 3. **الفوائد في الـ multithreading**:
-    - Immutable objects آمنة تمامًا للاستخدام في بيئات الـ multithreading بدون حاجة لـ synchronization
+    -ال Immutable objects آمنة تمامًا للاستخدام في بيئات الـ multithreading بدون حاجة لـ synchronization
 4. **التحسينات**:
     - ممكن تستخدم الـ Builder Pattern لو عندك كتير من المتغيرات
 ## الخلاصة

@@ -216,8 +216,8 @@ except primitives.
 9: System.out.println(birds); // [blue jay, cardinal, hawk, robin]
 
 --remove()
-The remove() methods remove the fi rst matching value in the ArrayList or remove the
-element at a specifi ed index.
+The remove() methods remove the first matching value in the ArrayList or remove the
+element at a specified index.
 
 3: List<String> birds = new ArrayList<>();
 4: birds.add("hawk"); // [hawk]

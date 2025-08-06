@@ -33,15 +33,15 @@
 
 - [x] Java History and Features
 - [x] JVM, JRE, JDK Concepts
-- [ ] Setting up Development Environment (IDE: IntelliJ/Eclipse)
-- [ ] Writing First Java Program
-- [ ] Java Program Structure (class, main method)
+- [x] Setting up Development Environment (IDE: IntelliJ/Eclipse)
+- [x] Writing First Java Program
+- [x] Java Program Structure (class, main method)
 - [x] Compilation Process (javac, java commands)
 
 ### 🔤 **Variables & Data Types**
 
-- [ ] Primitive Data Types (int, char, boolean, byte, short, long, float, double)
-- [ ] Reference Data Types
+- [x] Primitive Data Types (int, char, boolean, byte, short, long, float, double)
+- [x] Reference Data Types
 - [ ] Variable Declaration and Initialization
 - [ ] Type Casting (Explicit vs Implicit)
 - [ ] Constants (final keyword)

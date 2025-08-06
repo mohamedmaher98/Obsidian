@@ -8,27 +8,27 @@
 ### 🏗️ **Introduction & Setup**
 
 - [x] What is SQL Server and RDBMS Concepts
-- [ ] SQL Server Editions (Express, Standard, Enterprise)
-- [ ] SQL Server Architecture Overview
-- [ ] Installing SQL Server Developer Edition
-- [ ] SQL Server Management Studio (SSMS) Setup
-- [ ] Azure Data Studio Introduction
-- [ ] Understanding Databases vs Instances
-- [ ] SQL Server Services Overview
+- [x] SQL Server Editions (Express, Standard, Enterprise)
+- [x] SQL Server Architecture Overview
+- [x] Installing SQL Server Developer Edition
+- [x] SQL Server Management Studio (SSMS) Setup
+- [x] Azure Data Studio Introduction
+- [x] Understanding Databases vs Instances
+- [x] SQL Server Services Overview
 
 ### 🗄️ **Database Basics**
 
-- [ ] Creating Databases
-- [ ] Database Files (.mdf, .ldf, .ndf)
-- [ ] Database States (Online, Offline, Restoring)
-- [ ] System Databases (master, model, msdb, tempdb)
+- [x] Creating Databases
+- [x] Database Files (.mdf, .ldf, .ndf)
+- [x] Database States (Online, Offline, Restoring)
+- [x] System Databases (master, model, msdb, tempdb)
 - [ ] Database Options and Properties
-- [ ] Database Collation
+- [x] Database Collation
 - [ ] Database Compatibility Levels
 
 ### 📊 **Data Types**
 
-- [ ] **Numeric Types:** int, bigint, smallint, tinyint, decimal, numeric, float, real
+- [x] **Numeric Types:** int, bigint, smallint, tinyint, decimal, numeric, float, real
 - [ ] **Character Types:** char, varchar, nchar, nvarchar, text, ntext
 - [ ] **Date/Time Types:** datetime, datetime2, date, time, datetimeoffset
 - [ ] **Binary Types:** binary, varbinary, image

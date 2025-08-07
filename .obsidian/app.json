@@ -16,5 +16,6 @@
   "useTab": true,
   "autoConvertHtml": true,
   "vimMode": false,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "alwaysUpdateLinks": true
 }

@@ -1,0 +1,354 @@
+{
+  "main": {
+    "id": "7bbff34bb0533f24",
+    "type": "split",
+    "children": [
+      {
+        "id": "e274b7e59dcbd007",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6de6534b67fb642",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA OCA/java -start here/A.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "A"
+            }
+          },
+          {
+            "id": "1e96758771490d97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA OCA/java -start here/Enhanced for Loop.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Enhanced for Loop"
+            }
+          },
+          {
+            "id": "7e36618daad74e7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA OCA/java -start here/Enhanced for Loop.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Enhanced for Loop"
+            }
+          },
+          {
+            "id": "047780575fd1348b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA OCA/java -start here/Labeled Break and Continue.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Labeled Break and Continue"
+            }
+          },
+          {
+            "id": "80df28723d2a1318",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class Definition.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Class Definition"
+            }
+          },
+          {
+            "id": "d08c05f22cdf0e7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA OCA/java -start here/Object Creation and Memory Allocation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Object Creation and Memory Allocation"
+            }
+          },
+          {
+            "id": "29c101d688de5eed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA OCA/java -start here/Static Variables and Methods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Static Variables and Methods"
+            }
+          },
+          {
+            "id": "a746e5a114ea4002",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JAVA OCA/java -start here/Package Structure and Organization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Package Structure and Organization"
+            }
+          },
+          {
+            "id": "799af3edb883b211",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stduing/Java Path.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java Path"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bb61bd438af99114",
+    "type": "split",
+    "children": [
+      {
+        "id": "60d9168d287e034e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e82ba6254f0c2b4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c2d35e4ad469ffb5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "microservi",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "39a79074a99bad8c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 331.5110321044922
+  },
+  "right": {
+    "id": "96a444775a89a0c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3829c84ae75cba88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f856161313deb5f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "b7edaa4f64cb6f08",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cb5b1e9384e733d8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          },
+          {
+            "id": "d40b027a888ca044",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JAVA OCA/Chapter 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Chapter 3"
+            }
+          },
+          {
+            "id": "decb553ff2f5cb8e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "2e82ba6254f0c2b4",
+  "lastOpenFiles": [
+    "JAVA OCA/java -start here/Package Structure and Organization.md",
+    "JAVA OCA/java -start here/A.md",
+    "JAVA OCA/java -start here/Static Variables and Methods.md",
+    "Class Definition.md",
+    "Static Variables and Methods.md",
+    "JAVA OCA/java -start here/Instance Variables and Methods.md",
+    "JAVA OCA/java -start here/Object Creation and Memory Allocation.md",
+    "Instance Variables and Methods.md",
+    "JAVA OCA/java -start here/Labeled Break and Continue.md",
+    "JAVA OCA/java -start here/Labeled_Break_and_Continue.md",
+    "Command Line Arguments.md",
+    "Labeled Break and Continue.md",
+    "JAVA OCA/java -start here/Enhanced for Loop.md",
+    "Enhanced for Loop.md",
+    "JAVA OCA/java -start here/Variable Scope (local, instance, static).md",
+    "JAVA OCA/java -start here/Constants (final keyword).md",
+    "JAVA OCA/java -start here/Type Casting (Explicit vs Implicit).md",
+    "JAVA OCA/java -start here/Variable Declaration and Initialization.md",
+    "JAVA OCA/java -start here/Reference Data Type.md",
+    "JAVA OCA/java -start here/Bitwise Operators.md",
+    "JAVA OCA/java -start here/Ternary Operator.md",
+    "JAVA OCA/java -start here/Primitive Data Types.md",
+    "JAVA OCA/java -start here/instance of Operator.md",
+    "JAVA OCA/java -start here/JVM, JRE, JDK Concepts.md",
+    "JAVA OCA/java -start here/Java History and Features.md",
+    "JAVA OCA/java -start here/Arithmetic Operators.md",
+    "Sql/Sql - start here/Data Type",
+    "Sql/Sql - start here/basics",
+    "Sql/Sql - start here/Introduction",
+    "Sql/Sql - start here",
+    "JAVA OCA/java -start here",
+    "📁 Daily-WorkNotes",
+    "WhatsApp Image 2025-08-04 at 12.26.48_eeb58c0d.jpg",
+    "WhatsApp Image 2025-08-04 at 12.24.29_65f7c136.jpg",
+    "Stduing",
+    "Nam-Business",
+    "Pasted image 20250521010225.png",
+    "Pasted image 20250521005847.png",
+    "Pasted image 20250521005621.png",
+    "Yazan",
+    "Spring/Spring Security",
+    "Pasted image 20250510211217.png",
+    "Pasted image 20250510210259.png",
+    "Pasted image 20250509182802.png",
+    "Pasted image 20250509181047.png",
+    "Pasted image 20250509180941.png"
+  ]
+}

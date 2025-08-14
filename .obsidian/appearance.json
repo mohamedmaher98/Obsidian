@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "cssTheme": "🔔 Chime",
+  "baseFontSize": 23,
+  "baseFontSizeAction": true,
+  "showViewHeader": true,
+  "showRibbon": true,
+  "nativeMenus": true,
+  "theme": "obsidian"
+}

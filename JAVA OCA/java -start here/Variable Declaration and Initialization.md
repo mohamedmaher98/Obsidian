@@ -61,5 +61,12 @@
 ---
 
 ## 🧪 مثال عملي
-
-`public class Test {     public static void main(String[] args) {         int number;         number = 10;         int doubleNumber = number * 2;         System.out.println(doubleNumber); // 20     } }`
+```java
+public class Test {
+public static void main(String[] args) { 
+int number;     
+number = 10; 
+int doubleNumber = number * 2;
+System.out.println(doubleNumber); // 20 
+}
+}```

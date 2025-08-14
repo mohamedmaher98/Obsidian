@@ -13,7 +13,7 @@ Scope يعني "المدى" أو "نطاق الوصول" للمتغير داخل
 - لازم تهيّئه قبل الاستخدام.
     
 
-```
+```java
 public void sayHello() {
     String message = "Hello";
     System.out.println(message);
@@ -33,7 +33,7 @@ public void sayHello() {
 - مش لازم تهيئه، بياخد قيمة افتراضية.
     
 
-```
+```java
 public class Person {
     String name; // Instance variable
 
@@ -56,7 +56,7 @@ public class Person {
 - كل الكائنات بتشترك فيه.
     
 
-```
+```java
 public class Counter {
     static int count = 0;
 

@@ -20,12 +20,15 @@ System.out.println(b); // 10.0
     
 - ممكن يسبب **فقد بيانات** أو **نتايج غير متوقعة**.
     
-- ⛔ Java مش هتعمله لوحدها.
+-ال ⛔ Java مش هتعمله لوحدها.
     
 
 ### 🧪 مثال:
 
-`double x = 9.7; int y = (int) x; // y = 9 System.out.println(y); // 9`
+`double x = 9.7;
+int y = (int) x;
+// y = 9 
+System.out.println(y); // 9`
 
 ## ⚠️ ملاحظات مهمة:
 
@@ -34,7 +37,7 @@ System.out.println(b); // 10.0
 - التحويل الضمني بيشتغل من:
     
     - byte → short → int → long → float → double
-      
+      ```java
       public class TypeCastingExample {
     public static void main(String[] args) {
         int a = 10;

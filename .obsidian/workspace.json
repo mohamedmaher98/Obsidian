@@ -127,12 +127,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Friend-Finder/Microservices/Spring Cloud Config Server.md",
+                "file": "Spring/Friend-Finder/Microservices/REV--important.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring Cloud Config Server"
+              "title": "REV--important"
             }
           }
         ],
@@ -305,9 +305,12 @@
   },
   "active": "799af3edb883b211",
   "lastOpenFiles": [
+    "Spring/Friend-Finder/Microservices/REV--important.md",
+    "Spring/Friend-Finder/Microservices/Ribbon.md",
+    "Spring/Friend-Finder/Microservices/Feign.md",
+    "Spring/Friend-Finder/Microservices/Spring Cloud Config Server.md",
     "Pasted image 20250814074406.png",
     "Stduing/Java Path.md",
-    "Spring/Friend-Finder/Microservices/Spring Cloud Config Server.md",
     "Spring/Friend-Finder/Microservices/WS.md",
     "Spring/Friend-Finder/Microservices/Microservice.md",
     "Spring/Friend-Finder/Microservices/Spring cloud.md",
@@ -334,8 +337,6 @@
     "JAVA OCA/java -start here/Labeled_Break_and_Continue.md",
     "Command Line Arguments.md",
     "Labeled Break and Continue.md",
-    "JAVA OCA/java -start here/Enhanced for Loop.md",
-    "Enhanced for Loop.md",
     "Sql/Sql - start here/Data Type",
     "Sql/Sql - start here/basics",
     "Sql/Sql - start here/Introduction",
@@ -349,7 +350,6 @@
     "Pasted image 20250521005847.png",
     "Pasted image 20250521005621.png",
     "Pasted image 20250510211217.png",
-    "Pasted image 20250510210259.png",
-    "Pasted image 20250509182802.png"
+    "Pasted image 20250510210259.png"
   ]
 }

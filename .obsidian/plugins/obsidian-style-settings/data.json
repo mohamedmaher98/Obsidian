@@ -1,0 +1,23 @@
+{
+  "minimal-style@@ribbon-style": "ribbon-hidden",
+  "minimal-style@@window-title-off": false,
+  "minimal-style@@file-header-visibility": "minimal-tab-title-visible",
+  "minimal-style@@frame-background@@light": "#F52727",
+  "minimal-advanced@@styled-scrollbars": true,
+  "minimal-advanced@@cursor": "default",
+  "chime-theme@@theme-settings": "theme-anytype",
+  "chime-theme@@hide-dividers": true,
+  "chime-theme@@cards-layout": false,
+  "chime-theme@@classic-layout": true,
+  "chime-theme@@border-width": 1.3,
+  "chime-theme@@border-radius-average": 30,
+  "chime-theme@@colored-bold-and-italic": true,
+  "chime-theme@@underlined-highlight": false,
+  "chime-theme@@increased-line-height": false,
+  "chime-theme@@custom-font-toggle": true,
+  "chime-theme@@hide-buttons": false,
+  "chime-theme@@hide-tabs": false,
+  "chime-theme@@hide-titlebar": false,
+  "chime-theme@@hide-scrollbars": false,
+  "chime-theme@@ultra-focus": false
+}

@@ -27,4 +27,5 @@ git pull origin main
 
 1- git init 
 2- git add .
-3-
+3-git commit -m"
+4-git push origin main 

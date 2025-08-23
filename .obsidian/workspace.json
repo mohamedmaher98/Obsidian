@@ -11,12 +11,14 @@
             "id": "c4c2b6a9489977cc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.10"
+                "file": "Spring/DigitalL_ibrary/MAP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
+              "icon": "lucide-file",
+              "title": "MAP"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c28acc70f7167cac",
@@ -92,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spring/DigitalL_ibrary/MAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for MAP"
             }
           },
           {
@@ -110,11 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spring/DigitalL_ibrary/MAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from MAP"
             }
           },
           {
@@ -152,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Spring/DigitalL_ibrary/MAP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of MAP"
             }
           }
         ]
@@ -184,5 +190,10 @@
     }
   },
   "active": "c4c2b6a9489977cc",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Spring/Spring Security/Spring security Road Map.md",
+    "Spring/DigitalL_ibrary/MAP.md",
+    "Spring/DigitalL_ibrary",
+    "Spring/Friend-Finder/Microservices/Project.md"
+  ]
 }

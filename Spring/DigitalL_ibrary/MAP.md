@@ -124,10 +124,10 @@
 
 #### ✅ **الخطوة 4: UserDetailsService مخصص**
 
-- [ ] إنشاء UserRepository
-- [ ] تطبيق UserDetails interface
-- [ ] إنشاء CustomUserDetailsService
-- [ ] إضافة password encoding (BCrypt)
+- [x] إنشاء UserRepository
+- [x] تطبيق UserDetails interface
+- [x] إنشاء CustomUserDetailsService
+- [x] إضافة password encoding (BCrypt)
 - [ ] اختبار تسجيل الدخول من قاعدة البيانات
 
 #### ✅ **الخطوة 5: Registration System**

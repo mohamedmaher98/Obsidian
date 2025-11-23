@@ -29,16 +29,126 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/DigitalL_ibrary/MAP.md",
+                "file": "Spring/Spring Security/A-RoadMap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MAP"
+              "title": "A-RoadMap"
+            }
+          },
+          {
+            "id": "8ab477acccf7bcdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NamaTickts/Ledger Trans.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ledger Trans"
+            }
+          },
+          {
+            "id": "fb489c2974bbb6f2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
+            "id": "84d465b846629350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sql/Magic quires.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Magic quires"
+            }
+          },
+          {
+            "id": "ac8ff3420acf6e3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "invitem.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "invitem"
+            }
+          },
+          {
+            "id": "2d9e0eb8587b23f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "production order.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "production order"
+            }
+          },
+          {
+            "id": "48a6274c419e9240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 2"
+            }
+          },
+          {
+            "id": "a2b9510e739ab413",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 3"
+            }
+          },
+          {
+            "id": "1c4abf1f6d41fb15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "List Interface.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "List Interface"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -191,6 +301,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -204,8 +315,24 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "417e081d78f97a46",
+  "active": "1c4abf1f6d41fb15",
   "lastOpenFiles": [
+    "invitem.md",
+    "List Interface.md",
+    "production order.md",
+    "Untitled.base",
+    "Untitled 1.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "NamaTickts/Ledger Trans.md",
+    "Spring/Friend-Finder/Public Over View.md",
+    "Spring/Spring Security/A-RoadMap.md",
+    "Spring/Friend-Finder/Basic Auth for organization.md",
+    "JAVA OCA/java -start here/A.md",
+    "NamaTickts/ticket.md",
+    "NamaTickts/Tickets.md",
+    "NamaTickts/SRDRQ05725.md",
+    "Spring/DigitalL_ibrary/MAP.md",
     "Spring/Spring Security/Security Config.md",
     "Spring/Spring Security/Jwt.md",
     "NamaTickts/about investment.md",
@@ -214,27 +341,12 @@
     "Spring/Friend-Finder/Microservices/REV--important.md",
     "Spring/Friend-Finder/Microservices/Project.md",
     "Spring/Friend-Finder/Microservices/Feign.md",
-    "Spring/DigitalL_ibrary/MAP.md",
     "Spring/DigitalL_ibrary",
     "NamaTickts/investment-chekLists.md",
     "NamaTickts/investment.md",
     "JAVA OCA/java -start here/collections/Big O Notation.md",
-    "Sql/Magic quires.md",
-    "Sql/SQL QUIRES.md",
-    "Git/Claude.md",
-    "Spring/Friend-Finder/Microservices/Spring Cloud Config Server.md",
     "Pasted image 20250814074406.png",
-    "Git/Commands.md",
-    "Spring/Friend-Finder/Microservices/WS.md",
-    "JAVA OCA/java -start here/collections/List Interface.md",
-    "JAVA OCA/java -start here/collections/Collection Hierarchy.md",
     "JAVA OCA/java -start here/collections",
-    "JAVA OCA/java -start here/A.md",
-    "Spring/Friend-Finder/Microservices/Microservice.md",
-    "JAVA OCA/java -start here/Static Variables and Methods.md",
-    "JAVA OCA/java -start here/Package Structure and Organization.md",
-    "JAVA OCA/java -start here/Object Creation and Memory Allocation.md",
-    "JAVA OCA/java -start here/Labeled Break and Continue.md",
     "Pasted image 20250813163805.png",
     "Pasted image 20250813163642.png",
     "Spring/Friend-Finder/Microservices",
@@ -244,7 +356,6 @@
     "Sql/Sql - start here/Introduction",
     "Sql/Sql - start here",
     "JAVA OCA/java -start here",
-    "📁 Daily-WorkNotes",
     "WhatsApp Image 2025-08-04 at 12.26.48_eeb58c0d.jpg",
     "WhatsApp Image 2025-08-04 at 12.24.29_65f7c136.jpg",
     "Pasted image 20250521010225.png",

@@ -139,20 +139,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JAVA OCP/chapter 4/Calculating with Math APIs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Calculating with Math APIs"
-            }
-          },
-          {
-            "id": "e20880a377c0d8ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Vue/Node.JS.md",
                 "mode": "source",
                 "source": false
@@ -162,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -331,8 +317,9 @@
   },
   "active": "2e82ba6254f0c2b4",
   "lastOpenFiles": [
-    "Sql/Magic quires.md",
+    "JAVA OCP/chapter 4/Calculating with Math APIs.md",
     "Vue/Node.JS.md",
+    "Sql/Magic quires.md",
     "Vue",
     "📁 Daily-WorkNotes/vue.md",
     "Pasted image 20250509181047.png",
@@ -358,7 +345,6 @@
     "JAVA OCP/chapter 4/Period.md",
     "JAVA OCP/chapter 4/Date And Time.md",
     "JAVA OCP/chapter 1/Java Options.md",
-    "JAVA OCP/chapter 4/Calculating with Math APIs.md",
     "JAVA OCP/chapter 4/ArrayList.md",
     "JAVA OCP/chapter 4/Arrays.md",
     "JAVA OCP/chapter 4/HashCode.md",

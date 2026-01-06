@@ -1,8 +1,8 @@
 # Creating Classes — Java (Interview + OCP)
 
 ## Class vs Object
-- **Class** هو Template / Blueprint بنعرّف فيه الـ fields والـ methods.
-- **Object** هو instance من الـ class، وكل object ليه نسخته الخاصة من الـ instance variables.
+- ال**Class** هو Template / Blueprint بنعرّف فيه الـ fields والـ methods.
+- ال**Object** هو instance من الـ class، وكل object ليه نسخته الخاصة من الـ instance variables.
 
 ---
 

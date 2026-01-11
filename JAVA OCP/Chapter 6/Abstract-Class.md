@@ -145,4 +145,132 @@ a.sound(); // Dog implementation
 - بيفرض methods لازم تتنفذ
 - ينفع يحوي كود مشترك
 - بيدعم polymorphism
+- 
 
+---
+# Abstract Class in Java (Deep & Practical)
+
+## 🔹 يعني إيه Abstract Class؟
+- كلاس **مينفعش يتعمله object**
+- معمول علشان **يتورّث**
+- بيمثل **concept غير مكتمل**
+- ينفع يحتوي:
+  - abstract methods
+  - concrete methods
+  - fields
+  - constructors
+
+---
+
+## 🔹 ليه نستخدم Abstract Class؟
+نستخدمها لما يكون عندنا:
+- **منطق مشترك** بين كذا class
+- **Workflow ثابت** وخطوات متغيرة
+- محتاجين:
+  - state
+  - constructors
+  - shared logic
+- عايزين نمنع الاستخدام المباشر للكلاس
+
+---
+
+## 🔹 Template Method Pattern
+Pattern شائع جدًا مع Abstract Classes.
+
+الفكرة:
+- الـ abstract class تحدد **الهيكل العام (flow)**
+- الـ subclasses تكمل **التفاصيل**
+
+مثال:
+```java
+abstract class RestaurantOrder {
+
+    public final void processOrder() {
+        takeOrder();
+        prepareMeal();
+        receivePayment();
+    }
+
+    protected abstract void prepareMeal();
+
+    protected void takeOrder() {
+        // common logic
+    }
+
+    protected void receivePayment() {
+        // common logic
+    }
+}
+```
+
+
+---
+## 🔹 قواعد مهمّة
+
+- ❌ مينفعش نعمل `new` من Abstract Class
+    
+- ✔️ ينفع تكون **مفيهاش abstract methods**
+    
+- ✔️ ينفع يكون فيها **constructors**
+    
+- ✔️ الconstructor بيتنفّذ عند إنشاء object من subclass
+    
+- ✔️ ينفع تعمل `implements Interface`
+    
+- ❌ مش لازم تطبّق كل methods من الـ interface
+    
+- ✔️ الـ concrete class في الآخر **لازم تطبّق كل methods**
+--
+## 🔹 Abstract Class بدون abstract methods
+
+مفيد لما:
+
+- عندك logic مشترك
+    
+- عايز تمنع إنشاء object مباشر
+    
+- عايز تقول: “ده base class بس”
+
+---
+
+| Feature               | Abstract Class    | Interface     |
+| --------------------- | ----------------- | ------------- |
+| Instance              | ❌                 | ❌             |
+| Fields                | ✔️                | constants فقط |
+| Constructors          | ✔️                | ❌             |
+| Method implementation | ✔️                | ✔️ (default)  |
+| State                 | ✔️                | ❌             |
+| Multiple inheritance  | ❌                 | ✔️            |
+| Use case              | base logic + flow | contract فقط  |
+
+---
+## استخدام واقعي (Mental Model)
+
+مثال المطعم:
+
+- الطلب
+    
+- التحضير
+    
+- الدفع
+    
+
+الخطوات ثابتة  
+لكن طريقة التحضير مختلفة  
+→ **Abstract Class + Template Method**
+
+
+---
+## خلاصة Senior
+
+- Abstract Class = **Base behavior + controlled flexibility**
+    
+- مناسبة للـ workflows
+    
+- قوية مع design patterns
+    
+- اختيار تصميم مش syntax
+---
+## جملة Interview جاهزة
+
+> Abstract classes define shared behavior and structure while allowing subclasses to customize specific parts of the implementation.

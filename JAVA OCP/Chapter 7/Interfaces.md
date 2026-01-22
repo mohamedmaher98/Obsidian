@@ -1,7 +1,7 @@
 # Interfaces in Java – Declaring, Implementing & Using (Advanced)
 
 ## يعني إيه Interface؟
-Interface في Java تمثل **Contract / Capability**  
+الInterface في Java تمثل **Contract / Capability**  
 بتقول:
 - إيه اللي الكلاس يقدر يعمله (what can do)
 - مش إيه هو من جوّه (not what is)
@@ -47,7 +47,7 @@ class Duck implements Flyable, Swimmable {
 ```
 
 مسموح لأن:
-- Interfaces مفيهاش state
+-ال Interfaces مفيهاش state
 - مفيش constructors
 - مفيش ambiguity زي classes
 

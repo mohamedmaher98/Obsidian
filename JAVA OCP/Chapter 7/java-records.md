@@ -937,21 +937,22 @@ public record ShoppingCart(
 
 ### س1: إيه هو الـ Record في Java؟
 **الإجابة:**
-Record هو نوع خاص من الـ classes اتقدم في Java 14 (preview) وبقى stable في Java 16. هو **immutable data carrier** - يعني class بيشيل data ومش محتاج منه حاجة تانية. Java بتولد أوتوماتيك: private final fields، canonical constructor، accessor methods، equals()، hashCode()، و toString().
+الRecord هو نوع خاص من الـ classes اتقدم في Java 14 (preview) وبقى stable في Java 16. هو **immutable data carrier** - يعني class بيشيل data ومش محتاج منه حاجة تانية. Java بتولد أوتوماتيك: private final fields، canonical constructor، accessor methods، equals()، hashCode()، و toString().
 
 ---
 
 ### س2: إيه الفرق بين Record و Class العادي؟
 **الإجابة:**
-| Record | Class |
-|--------|-------|
-| Implicitly final | ممكن يكون final أو لا |
-| مش ممكن يـ extend class | ممكن يـ extend أي class |
-| Fields دايماً private final | Fields ممكن تكون أي access modifier |
-| مفيش instance fields إضافية | ممكن تضيف أي عدد من fields |
-| Canonical constructor أوتوماتيك | لازم تكتب constructor |
-| Accessor methods أوتوماتيك | لازم تكتب getters |
-| equals/hashCode/toString أوتوماتيك | لازم تـ override manually |
+
+| Record                             | Class                                 |
+| ---------------------------------- | ------------------------------------- |
+| Implicitly final                   | ممكن يكون final أو لا                 |
+| مش ممكن يـ extend class            | ممكن يـ extend أي class               |
+| الFields دايماً private final      | الFields ممكن تكون أي access modifier |
+| مفيش instance fields إضافية        | ممكن تضيف أي عدد من fields            |
+| Canonical constructor أوتوماتيك    | لازم تكتب constructor                 |
+| Accessor methods أوتوماتيك         | لازم تكتب getters                     |
+| equals/hashCode/toString أوتوماتيك | لازم تـ override manually             |
 
 ---
 
@@ -977,7 +978,7 @@ public record Person(String name, int age) {
 **Compact Constructor:**
 - مفيش parameters بين القوسين
 - مفيش assignment statements
-- Java بتعمل الـ assignment أوتوماتيك في الآخر
+- الJava بتعمل الـ assignment أوتوماتيك في الآخر
 - بيستخدم للـ validation والـ normalization
 
 ```java

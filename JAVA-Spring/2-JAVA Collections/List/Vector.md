@@ -7,7 +7,10 @@
 - Legacy class (قديم)
 
 Example:
+```java
 Vector<String> vector = new Vector<>();
+
+```
 
 ---
 

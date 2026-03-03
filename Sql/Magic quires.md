@@ -40,9 +40,3 @@
 	exec sp_executesql @final_sql;
 	
 	drop table #db_record_counts;
-
-
-
-
-
-

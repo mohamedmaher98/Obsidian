@@ -18,7 +18,7 @@ API = طريقة تواصل بين سيستم وسيستم تاني.
 
 ## 2) يعني إيه Server ؟
 
-Server = جهاز عليه برنامج شغال بيستقبل Requests ويرد عليها.
+ءServer = جهاز عليه برنامج شغال بيستقبل Requests ويرد عليها.
 
 ### في Spring Boot:
 
@@ -129,8 +129,9 @@ Spring Boot بيعمله Bean تلقائيًا.
 
 ## 11) الفرق بين Server و Service
 
-Server = البرنامج اللي بيستقبل الطلبات (Tomcat) Service = كلاس Java فيه
-Business Logic
+Server = البرنامج اللي بيستقبل الطلبات (Tomcat) 
+Service = كلاس Java فيه
+siness Logic
 
 ------------------------------------------------------------------------
 
@@ -170,8 +171,8 @@ Controller → Service → Repository
 
 # الخلاصة الكبيرة
 
-Spring Boot Application = برنامج شغال على جهاز فيه Tomcat بيستقبل
-Requests يوجهها للـ Controller اللي ينادي Service اللي ينادي Repository
+ءSpring Boot Application = برنامج شغال على جهاز فيه Tomcat بيستقبل
+ءRequests يوجهها للـ Controller اللي ينادي Service اللي ينادي Repository
 اللي يكلم Database وبعدين يرجع JSON للعميل.
 
 انت دلوقتي فاهم الصورة الكاملة من أول الطلب لحد الرد.

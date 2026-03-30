@@ -1,6 +1,4 @@
-# Spring Core — ملخص الشرح بالتفصيل (IoC / DI / Factory / Container / Annotations)
-
-> مكتوب بالعمايه المصريه + أمثلة Java عشان تثبت الفهم **مش حفظ**.
+# الSpring Core — ملخص الشرح بالتفصيل (IoC / DI / Factory / Container / Annotations)
 
 ---
 
@@ -15,7 +13,7 @@ class OrderService {
 
 ده معناه إن `OrderService` ماسك **مسؤوليتين**:
 1) شغله الأساسي (Orders)  
-2) إنه يخلق `PaymentService` بنفسه  
+2) إنه يعمل `PaymentService` بنفسه  
 
 وده بيعمل مشاكل: ربط جامد (Tight Coupling)، صعوبة Test، صعوبة تبديل implementations.
 
@@ -35,7 +33,7 @@ class OrderService {
 class B {}
 
 class A {
-    private B b = new B();  // A هي اللي خلقت B
+    private B b = new B();  // A هي اللي عملت B
 }
 ```
 
@@ -43,7 +41,7 @@ class A {
 
 ### بعد IoC (فيه IoC)
 الكلاس بيقول:
-> أنا محتاج B → اللي هيخلقني يديني B جاهزة
+> أنا محتاج B → اللي هينشئني يديني B جاهزة
 
 ```java
 class B {}
@@ -70,7 +68,7 @@ A a = new A(b);
 
 ## 2) Dependency Injection (DI) يعني إيه؟
 **DI = أسلوب/طريقة لتنفيذ IoC**  
-يعني بدل ما الكلاس يخلق dependencies، إحنا “بنحقنها” له من بره.
+يعني بدل ما الكلاس يعمل dependencies، إحنا “بنحقنها” له من بره.
 
 > كل DI هو IoC، بس IoC فكرة عامة وممكن يتعمل بطرق تانية.
 
@@ -170,7 +168,7 @@ class Car {
 ```
 
 **هو بيعمل إيه؟**  
-Spring بيخلق `Car` وبعدين يعمل injection للـ field “من وراك” كأنه بيعمل:
+ءSpring بعمل `Car` وبعدين يعمل injection للـ field “من وراك” كأنه بيعمل:
 
 ```java
 car.engine = engine;
@@ -186,7 +184,7 @@ car.engine = engine;
 ---
 
 ## 4) Factory Pattern (ليه بنستخدمه؟)
-Factory = “مصنع” بيصنع object بناءً على اختيار/شرط بدل ما تكرر `new + if/else` في كل مكان.
+الFactory = “مصنع” بيصنع object بناءً على اختيار/شرط بدل ما تكرر `new + if/else` في كل مكان.
 
 ### المشكلة من غير Factory
 ```java
@@ -215,14 +213,14 @@ Car car = new Car(engine); // هنا DI (manual) + Factory
 ```
 
 ### الفرق بين Factory و DI
-- **Factory**: بتنقل قرار الإنشاء لمكان واحد (بس انت لسه بتستدعي المصنع)
-- **DI/IoC**: بتشيل مسؤولية الإنشاء من الكلاس خالص (والقرار غالبًا يبقى عند Container زي Spring)
+- ال**Factory**: بتنقل قرار الإنشاء لمكان واحد (بس انت لسه بتستدعي المصنع)
+- ال**DI/IoC**: بتشيل مسؤولية الإنشاء من الكلاس خالص (والقرار غالبًا يبقى عند Container زي Spring)
 
 ---
 
 ## 5) Spring Container (ApplicationContext)
-Spring Container هو “المدير” اللي:
-- يخلق الـ objects (Beans)
+الSpring Container هو “المدير” اللي:
+- يعمل  الـ objects (Beans)
 - يربطهم ببعض (DI)
 - يدير lifecycle
 - يدير scopes
@@ -230,17 +228,17 @@ Spring Container هو “المدير” اللي:
 أشهر Container في Spring: **ApplicationContext**
 
 ### يعني إيه Bean؟
-أي object Spring بيخلقه ويديره اسمه **Bean**.
+أي object Spring بيعمل ه ويديره اسمه **Bean**.
 
-### Spring بيعمل إيه عند تشغيل التطبيق؟
+###  ءSpring بيعمل إيه عند تشغيل التطبيق؟
 1) يعمل scan على الكلاسات اللي عليها:
    - `@Component`, `@Service`, `@Repository`, `@Controller`, `@RestController`
-2) يخلق instances
-3) يشوف dependencies في constructors
-4) يربطهم ببعض
-5) يخزنهم داخل ApplicationContext
+1) يعمل  instances
+2) يشوف dependencies في constructors
+3) يربطهم ببعض
+4) يخزنهم داخل ApplicationContext
 
-### getBean (فكرة)
+### ءgetBean (فكرة)
 ```java
 ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
 Car car = ctx.getBean(Car.class);
@@ -393,7 +391,7 @@ class OrderService {
 ## 10) المصطلحات في سطر واحد
 - **IoC**: التحكم في إنشاء dependencies خرج برا الكلاس  
 - **DI**: طريقة حقن dependencies للكلاس  
-- **Factory**: مكان مركزي يقرر ويخلق implementation مناسب  
+- **Factory**: مكان مركزي يقرر ويعمل  implementation مناسب  
 - **ApplicationContext**: الـ Container اللي بيدير Beans و DI في Spring  
 
 ---

@@ -206,9 +206,9 @@ public class DatabaseConnection {
 
 ### الفرق بين Spring و Spring Boot
 
-**Spring** هو الـ framework الأساسي. محتاج تعمل configuration كتير.
+ء**Spring** هو الـ framework الأساسي. محتاج تعمل configuration كتير.
 
-**Spring Boot** هو طبقة فوق Spring بتعملك auto-configuration. بدل ما تكتب 50 سطر configuration، بتكتب سطرين وخلاص.
+ء**Spring Boot** هو طبقة فوق Spring بتعملك auto-configuration. بدل ما تكتب 50 سطر configuration، بتكتب سطرين وخلاص.
 
 ```java
 @SpringBootApplication  // دي بتشغل كل السحر
@@ -220,9 +220,9 @@ public class MyApplication {
 ```
 
 `@SpringBootApplication` دي اختصار لـ 3 annotations:
-- `@Configuration` - الـ class ده فيه configuration
-- `@EnableAutoConfiguration` - خلي Spring Boot يعمل auto-configuration
-- `@ComponentScan` - دور على كل الـ @Component/@Service/etc. في الـ package ده وتحته
+- ؤ`@Configuration` - الـ class ده فيه configuration
+- ؤ `@EnableAutoConfiguration` - خلي Spring Boot يعمل auto-configuration
+- ؤ `@ComponentScan` - دور على كل الـ @Component/@Service/etc. في الـ package ده وتحته
 
 ### application.properties / application.yml
 

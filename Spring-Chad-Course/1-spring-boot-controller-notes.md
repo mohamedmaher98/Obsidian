@@ -330,9 +330,9 @@ Client (Browser/Mobile/Postman)
 
 ### كل خطوة بالتفصيل
 
-**① Tomcat** — بيستقبل الـ TCP connection وبيحوّل الـ HTTP الخام لـ `HttpServletRequest` Object وبيعمل Thread من الـ thread pool.
+**①ال Tomcat** — بيستقبل الـ TCP connection وبيحوّل الـ HTTP الخام لـ `HttpServletRequest` Object وبيعمل Thread من الـ thread pool.
 
-**② Filter Chain** — بتشتغل قبل Spring نفسه يشوف الـ request.
+**②ال Filter Chain** — بتشتغل قبل Spring نفسه يشوف الـ request.
 
 ```java
 @Component
@@ -352,9 +352,9 @@ public class LoggingFilter implements Filter {
 }
 ```
 
-**③ DispatcherServlet** — بيسأل HandlerMapping مين المسؤول عن الـ Request ده.
+**③ال DispatcherServlet** — بيسأل HandlerMapping مين المسؤول عن الـ Request ده.
 
-**④ Interceptors** — بتشتغل قبل الـ Controller مباشرةً وبعده.
+**④ الInterceptors** — بتشتغل قبل الـ Controller مباشرةً وبعده.
 
 ```java
 @Component
@@ -384,11 +384,11 @@ public class AuthInterceptor implements HandlerInterceptor {
 | بيعرف مين الـ Controller؟ | لأ | آه |
 | مكانه | Servlet level | Spring level |
 
-**⑤ Controller** — بياخد الـ Request ويفككه (PathVariable, RequestBody, إلخ).
+**⑤ الController** — بياخد الـ Request ويفككه (PathVariable, RequestBody, إلخ).
 
-**⑥ Service** — الـ Business Logic.
+**⑥ الService** — الـ Business Logic.
 
-**⑦ Repository** — بيتكلم مع الـ Database عن طريق Hibernate/JPA.
+**⑦ الRepository** — بيتكلم مع الـ Database عن طريق Hibernate/JPA.
 
 **⑧ الرجوع** — نفس الطريق بالعكس، Jackson بيحوّل الـ Object لـ JSON.
 
